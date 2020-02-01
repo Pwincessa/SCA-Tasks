@@ -12,16 +12,16 @@
         
     <header>
         <Nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
+            <span class="navbar__toggle" id="js-navbar-toggle">
                 <img src="https://img.icons8.com/material-two-tone/24/000000/menu.png">
             </span>
 
-            <div class="logo">
-                <a href="http://" target="_blank">
+            <div class="navbar__logo">
+                <a href="#" target="_blank">
                     <img class="logo" src="/build/assets/images/BluePrint..svg" alt="" srcset="">
                 </a>
             </div>  
-                <ul class="topnav" id="js-menu">
+                <ul class="navbar__menu" id="js-menu">
 
                     <li>
                         <a href="#news" class="nav-links">Spaces</a>
@@ -52,15 +52,15 @@
     <main>
 
         <div class="container1">
-            <div class="item1">
+            <div class="container1__item1">
                 <h1>Coworking  space  at  the  <br> best location  in the city</h1> <br> <br>
                 <p><small> ipsum dolor sit amet, consectetur adipisicing elit. 
                 Enim, quos <br> dolorum eius debitis neque <br> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit <br> amet consectetur 
                 adipisicing elit. Placeat, quis?</small></p>  <br>
                 <br> <br> 
            
-                <form class="searchForm">
-                    <div class="card">
+                <form class="container1__searchForm">
+                    <div class="container1__card">
 
                         <select name="Location" id="locate">
                             <option value="">Location</option>
@@ -96,58 +96,59 @@
                 
             </div>
 
-            <div class="photo">
+            <div class="container1__photo">
                 <img src="assets/images/picture1.jpg" alt="co-working space image" srcset="">
             </div>
 
        </div>
        <h2>Spaces that are just right</h2>
        <div class="container2">
-            <div class="card1">
-                <div class="card-content">
+            <div class="container2__card1">
+                <div class="container2__card-content">
                     <img src="assets/images/collaboration.jpg" alt="collaboration image" srcset="">
-                    <article>  <h3>Collaboration</h3> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <article>  <figcaption>Collaboration</figcaption> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
                 </div>
             </div>
             
-            <div class="card1">
-                <div class="card-content">
+            <div class="container2__card1">
+                <div class="container2__card-content">
                     <img src="assets/images/spacious.jpg" alt="spacious workplace image" srcset="">
-                    <article>  <h3>Ample Space</h3> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <article>  <figcaption>Ample Space</figcaption>  <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
                 </div>
             </div>
-            
-            <div class="card1">
-                <div class="card-content">
+           
+            <div class="container2__card1">
+                <div class="container2__card-content">
                     <img src="assets/images/do-more.jpg" alt="do more image" srcset="">
-                    <article>  <h3>Time to do more</h3> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <article>  <figcaption>Time to do more</figcaption> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
                 </div>
             </div>
        </div>
-       <h2 style="padding-left:550px;">WHAT WE OFFER</h2>
+       <h2 class="container2 container2__text-offer">WHAT WE OFFER</h2>
+
        <div class="container3">
-        <div class="card2">
-            <div class="card-content2">
-                <img src="" alt="do more image" srcset="">
+        <div class="container3__card2">
+            <div class="container3__card-content2">
+                <img src="/build/assets/images/icon-wifi.png" alt="do more image" srcset="">
                 <article>  <h4>Superfast Internet</h4> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
             </div>
         </div> 
         
-        <div class="card2">
-            <div class="card-content2">
-                <img src="https://img.icons8.com/ios-filled/100/000000/wifi.png" alt="wifi image" srcset="">
+        <div class="container3__card2">
+            <div class="container3__card-content2">
+                <img src="/build/assets/images/icons-printer.png" alt="wifi image" srcset="">
                 <article>  <h4>Prnting and scanner</h4> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
             </div>
         </div> 
         
-        <div class="card2">
-            <div class="card-content2">
-                <img src="" alt="do more image" srcset="">
+        <div class="container3__card2">
+            <div class="container3__card-content2">
+                <img src="/build/assets/images/icons-pen.png" alt="do more image" srcset="">
                 <article>  <h4>Stationery</h4> <br><p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Magnam ab sequi repudiandae voluptatum dolores ipsam! </p> </article>
             </div>
@@ -158,7 +159,7 @@
     <br>
     <br>
     <br>
-    <hr style="border-top:1px solid rgb(192, 188, 188);">
+    <hr>
 
 
 
@@ -183,6 +184,9 @@
                         <a href="#"> FAQs</a>
                     </li>
                 </ul>
+                <br>
+                <br>
+                <p class="address">1 Towery close victoria Island Lagos</p>
             </div>
 
             <div>
@@ -203,8 +207,16 @@
                 </ul>
             </div>
 
-        <div>
+        <div class="footer__card">
+            <img src="/build/assets/images/icons8-usa.png" alt="" srcset="">
             <p>USD($)</p>
+            <br><br><br><br><br><br>
+            <img src="/build/assets/images/icons8-facebook-circled-50.png" alt="" srcset="">
+            <img src="/build/assets/images/icons8-google-plus-48.png" alt="" srcset="">
+            <img src="/build/assets/images/icons8-linkedin-circled-50.png" alt="" srcset="">
+            <img src="/build/assets/images/icons8-twitter-circled-50.png" alt="" srcset="">
+            <img src="/build/assets/images/icons8-linkedin-circled-50.png" alt="" srcset="">
+            <img src="/build/assets/images/icons8-facebook-circled-50.png" alt="" srcset="">
         </div>
 
        <script src="js/main.js"></script>
